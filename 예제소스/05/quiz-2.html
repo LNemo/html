@@ -22,7 +22,36 @@
 			<p>HTML, CSS, Javascript에 대한 기술적 이해와 경험이 있는 분을 찾습니다.</p>
 			<hr>
 			<form>
-				
+				<h4>개인 정보</h4>
+				<ul>
+					<li>
+						<label for="name">이름</label>
+						<input type="text" id="name" placeholder="공백 없이 입력하세요">
+					</li>
+					<li>
+						<label for="tel">연락처</label>
+						<input type="tel" id="tel">
+					</li>
+				</ul>
+				<h4>지원 분야</h4>
+				<ul>
+					<li>
+						<input type="radio" id="field1" name="field" value="wp">
+						<label for="field1">웹 퍼블리싱</label>
+					</li>
+					<li>
+						<input type="radio" id="field2" name="field" value="wad">
+						<label for="field2">웹 애플리케이션 개발</label>
+					</li>
+					<li>
+						<input type="radio" id="field3" name="field" value="eng">
+						<label for="field3">개발 환경 개선</label>
+					</li>
+				</ul>
+				<h4>지원 동기</h4>
+				<textarea rows="5" cols="60" placeholder="본사 지원 동기를 간략히 써 주세요."></textarea>
+				<button type="submit" >접수하기</button>
+				<button type="reset" >다시쓰기</button>
 			</form>
 		</div>
   </body>
